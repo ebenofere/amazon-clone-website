@@ -9,14 +9,14 @@ import {
   Grid,
   theme,
 } from '@chakra-ui/react';
-import Header from './components/Navbar/Header';
+import NavBar from './components/Navbar/NavBar';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="left" fontSize="xl">
         <Grid minH="100vh" p={3}>
-          <Header />
+          <NavBar />
         </Grid>
       </Box>
     </ChakraProvider>
