@@ -1,25 +1,13 @@
 import React from 'react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from '@chakra-ui/react';
-import NavBar from './components/Navbar/NavBar';
+import { Container } from '@chakra-ui/react';
+import { Header } from 'components/layout';
+import { CONTAINER_MAX_WIDTH } from 'config/layout';
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
-      <Box textAlign="left" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <NavBar />
-        </Grid>
-      </Box>
-    </ChakraProvider>
+    <Container maxW={CONTAINER_MAX_WIDTH}>
+      <Header />
+    </Container>
   );
 }
 
