@@ -1,21 +1,15 @@
-import { Box, HStack } from '@chakra-ui/react';
+import { Box, HStack, VStack, Flex, Heading, } from '@chakra-ui/react';
 import React from 'react';
 
 const Header = () => {
   return (
-    <Box w="full" h={'10rem'}>
-      <HStack justify={'space-between'} h="full">
-        <Box w="30%" h="full" border="1px solid">
-          Left Box
-        </Box>
-        <Box w="30%" h="full" border="1px solid">
-          Middle Box
-        </Box>
-        <Box w="30%" h="full" border="1px solid">
-          Right Box
-        </Box>
-      </HStack>
-    </Box>
+    <VStack p={5} style={{ border: '1px solid black' }} className="page">
+      <Flex w="100%">
+        <Heading ml="8" size="xl" fontWeight="semibold" color="orange.400">
+          Amazon
+        </Heading>
+      </Flex>
+    </VStack>
   );
 };
 

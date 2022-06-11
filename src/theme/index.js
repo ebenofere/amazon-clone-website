@@ -6,6 +6,7 @@ const colors = {
     black: '#000',
   },
 };
+
 const styles = {
   global: {
     html: {
