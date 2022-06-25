@@ -23,6 +23,13 @@ const styles = {
   },
 };
 
-const customTheme = extendTheme({ colors, styles });
+const theme = {
+  fonts: {
+    heading: `'Open Sans', sans-serif`,
+    body: `'Raleway', sans-serif`,
+  },
+};
+
+const customTheme = extendTheme({ colors, styles, theme });
 
 export { customTheme };

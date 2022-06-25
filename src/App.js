@@ -16,10 +16,10 @@ import './amazon.css';
 
 function App() {
   return (
-    <>
+    <div className="page">
       <Header />
       <Main />
-    </>
+    </div>
   );
 }
 
