@@ -15,12 +15,12 @@ const Header = () => {
           <Image src='https://res.cloudinary.com/ebenofere/image/upload/v1656188531/amazon-clone-app/amazon_logo_fuf1v4.svg' style={{ width: "100px" }} />
         </Heading>
         <Spacer />
-        <Box w='200px' mx='20px' display='flex' alignItems="center" justifyContent="space-between" style={{ border: "1px solid white" }}>
-          <Box mr="10px">
+        <Box w='200px' mx='5px' display='flex' alignItems="center" justifyContent="center">
+          <Box>
             <GrLocation style={iconStyles} />
           </Box>
-          <Box>
-            <Text fontSize='lg' color='white' >Deliver to Margaret</Text>
+          <Box style={{ border: '1px solid white' }}>
+            <Text fontSize='lg' color='#F3F3F3' >Deliver to Margaret</Text>
             <Text fontSize='xl' color='white' fontWeight='bold' >Montreal H4B 2W‌</Text>
           </Box>
         </Box>
