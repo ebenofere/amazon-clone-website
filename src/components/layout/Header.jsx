@@ -16,7 +16,7 @@ const Header = () => {
         </Box>
         <Box>
           <Text fontSize='lg' color='#F3F3F3' >{firstLine}</Text>
-          <Text fontSize='xl' color='white' fontWeight='bold' >{secondLine}</Text>
+          <Text fontSize='xl' hocolor='white' fontWeight='bold' >{secondLine}</Text>
         </Box>
       </Box>
     )
